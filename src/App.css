@@ -39,11 +39,7 @@
     font-size: calc(10px + 1.5vmin);
   }
 }
-@media (min-width: 668px) {
-  .containter {
-    max-width: 40%;
-  }
-}
+
 .App-link {
   color: #61dafb;
 }
