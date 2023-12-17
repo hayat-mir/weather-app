@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+@media (max-width: 768px) {
+  .App-logo {
+    height: 8vmin;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +28,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(10px + 1.5vmin);
+  }
 }
 
 .App-link {
