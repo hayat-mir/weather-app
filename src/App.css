@@ -7,9 +7,14 @@
   pointer-events: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 668px) {
   .App-logo {
     height: 8vmin;
+  }
+  .search-icon {
+    width: 30px;
+    height: 30px;
+    /* Adjust other properties as needed for smaller screens */
   }
 }
 
@@ -29,12 +34,16 @@
   font-size: calc(10px + 1vmin);
   color: white;
 }
-@media (max-width: 768px) {
+@media (max-width: 668px) {
   .App-header {
     font-size: calc(10px + 1.5vmin);
   }
 }
-
+@media (min-width: 668px) {
+  .containter {
+    max-width: 40%;
+  }
+}
 .App-link {
   color: #61dafb;
 }

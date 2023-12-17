@@ -1,5 +1,6 @@
 .container {
-  width: 590px;
+  width: 100%;
+  max-width: 40%;
   height: 100vh;
   margin: auto;
 
@@ -11,13 +12,13 @@
   display: flex;
   justify-content: center;
   gap: 14px;
-  padding-top: 60px;
+  padding-top: 90px;
 }
 .top-bar input {
   display: flex;
 
-  width: 362px;
-  height: 50px;
+  width: 332px;
+  height: 46px;
   margin-bottom: 10px;
   background: #ebfffc;
   border: none;
