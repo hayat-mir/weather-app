@@ -13,7 +13,7 @@ import humidity_icon from "../Assests/humidity.png";
 const WeatherApp = () => {
   let api_key = "d37511fe963342f26b312afc2c9868ee";
   const [wicon, setWicon] = useState(cloud_icon);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState("London");
   const [weatherData, setWeatherData] = useState(null);
 
   useEffect(() => {
